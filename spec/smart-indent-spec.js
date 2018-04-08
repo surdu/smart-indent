@@ -22,7 +22,6 @@ describe("smart-indent", function () {
 
 		runs(function () {
 			editor = atom.workspace.getActiveTextEditor();
-			editor.setText("");
 			editorView = atom.views.getView(editor);
 
 			editor.update({
@@ -70,5 +69,4 @@ describe("smart-indent", function () {
 	it("shoul not consider spaces other than alignment spaces", function () {
 		test("some   string", "some   string\n");
 	});
-
 });
