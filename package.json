@@ -1,13 +1,14 @@
 {
   "name": "smart-indent",
   "main": "./lib/smart-indent",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Indent with tabs, align with spaces: this is what smart-indent helps you with.",
   "repository": "https://github.com/surdu/smart-indent",
   "keywords": [
-    "smart tabs", "indent vs align", "tabs vs spaces"
+    "smart tabs",
+    "indent vs align",
+    "tabs vs spaces"
   ],
-  "repository": "https://github.com/surdu/smart-indent",
   "author": {
     "name": "Nicu Surdu",
     "url": "http://surdu.me"
@@ -16,6 +17,5 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
