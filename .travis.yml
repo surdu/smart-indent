@@ -1,8 +1,11 @@
-language: objective-c
+install:
+  - nvm install node
+  - npm i -g eslint
 
-notifications:
-  email:
-    on_success: never
-    on_failure: change
+matrix:
+  include:
+     - language: node_js
+       script: eslint **/*.js
 
-script: 'curl -s https://raw.githubusercontent.com/atom/ci/master/build-package.sh | sh'
+     - language: objective-c
+       script: 'curl -s https://raw.githubusercontent.com/atom/ci/master/build-package.sh | sh'
