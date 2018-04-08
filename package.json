@@ -7,7 +7,7 @@
   "keywords": [
     "smart tabs", "indent vs align", "tabs vs spaces"
   ],
-  "repository": "https://github.com/atom/smart-indent",
+  "repository": "https://github.com/surdu/smart-indent",
   "author": {
     "name": "Nicu Surdu",
     "url": "http://surdu.me"
