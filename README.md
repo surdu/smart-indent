@@ -1,4 +1,4 @@
-# smart-indent
+# Smart Indent [![Build Status](https://travis-ci.org/surdu/smart-indent.svg?branch=master)](https://travis-ci.org/surdu/smart-indent)
 
 Indent with tabs, align with spaces: this is what smart-indent helps you with.
 
