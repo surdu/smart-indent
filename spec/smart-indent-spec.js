@@ -5,7 +5,6 @@ describe("smart-indent", function () {
 
 	function test(inputText, expectedText) {
 		editor.setText(inputText);
-		editor.moveToEndOfLine();
 		atom.commands.dispatch(editorView, 'editor:newline');
 
 		expect(editor.getText()).toBe(expectedText);
@@ -54,7 +53,6 @@ describe("smart-indent", function () {
 				});
 
 				editor.setText("if (ceva &&\n\t\t    altceva) {");
-				editor.moveToEndOfLine();
 				atom.commands.dispatch(editorView, 'editor:newline');
 
 				expect(editor.getText()).toBe("if (ceva &&\n\t\t    altceva) {\n\t\t\t");
